@@ -1,6 +1,19 @@
-# config.toml
+[app]
+client_name = "goodnight_sender"
+delay = 60
+
+[randomization]
+enabled = true
+base_step = 86400  # 24 hours
+delta_minus = 3600  # 1 hour
+delta_plus = 3600  # 1 hour
+
+[logging]
+file = "sent.log"
+format = "%(asctime)s - %(levelname)s - %(message)s"
+
 [telegram]
-api_id = 123456                     # Replace with your actual API ID
-api_hash = "your_api_hash"          # Replace with your actual API hash
-phone_number = "your_phone_number"  # Replace with your phone number
-channel_id = "your_channel_id"      # Channel ID or username
+api_id = 00000000
+api_hash = "0000000000000000"
+phone_number = "+000000000000"
+channel_id = "@test;@telegram"
