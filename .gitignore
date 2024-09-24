@@ -1,3 +1,4 @@
 *session*
 venv/*
 *.log
+__pycache__/*
