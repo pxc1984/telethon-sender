@@ -1,0 +1,6 @@
+# config.toml
+[telegram]
+api_id = 123456                     # Replace with your actual API ID
+api_hash = "your_api_hash"          # Replace with your actual API hash
+phone_number = "your_phone_number"  # Replace with your phone number
+channel_id = "your_channel_id"      # Channel ID or username
